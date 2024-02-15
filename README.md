@@ -32,7 +32,7 @@ This guide demonstrates how to containerize a REST API built with Express and Po
 1. Set up the database:
 
    ```
-   curl --location --request 'http://localhost:13000/setup'
+   curl --location 'http://localhost:13000/setup'
    ```
 
 1. Create users:
